@@ -1,0 +1,106 @@
+ol {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    background-color:rgb(240, 63, 116);
+    border-radius: 10px;
+    font-family: 'Lobster', sans-serif;
+    
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+}
+
+.slide {
+    flex: 25%;
+    transition: 1s;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.radio-button {
+    display: none;
+}
+
+.radio-button:checked ~ .slides {
+    animation: slide 240s linear infinite;
+} 
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+body {
+    
+    background: url(image/bc.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+h1 {
+    text-align: center;
+    color: #ff9494;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Playpen Sans', cursive;
+}
+
+h4 {
+    text-decoration: underline;
+    font-family: 'Playpen Sans', cursive;
+    color: #ff9494;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Playpen Sans', cursive;
+    margin: 20px;
+    font-size: 20px;
+    color: #ff9494;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,49 @@
+h1{ text-align: center;
+    color: #ff9494;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Playpen Sans', cursive;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    background-color:rgb(240, 63, 116);
+    border-radius: 10px;
+    font-family: 'Lobster', sans-serif;
+    
+}
+body{
+    background: url(image/bc.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playpen Sans', cursive;
+    margin: 20px;
+    font-size: 20px;
+    color: #ff9494;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+h4{
+    text-decoration:underline ;
+    font-family: 'Playpen Sans', cursive;
+    color: #ff9494;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 30px;
+    padding: 15px;
+    border: solid orange;
+    border-radius: 10px;
+
+  }
+  .checkbox{
+    display:flex;
+    flex-direction: column-reverse;
+  }
